@@ -17,7 +17,7 @@ This project involves developing a web-based AI chatbot application. The system 
 The architecture separates the application into three main components:
 
 1. Joshua Eme: **Frontend user interface**
-2. Jimi: **Backend API server**
+2. Oluwafolajimi Lawal: **Backend API server**
 3. Me: **Conversation logic and AI integration**
 
 This separation allows each team member to develop a different part of the system while still collaborating on the full application.
