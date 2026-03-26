@@ -10,9 +10,19 @@ To prepare for this role I began researching how AI chat systems structure promp
 
 From this initial research I learned that prompt structure plays a major role in how effectively a chatbot responds. Many systems use a combination of system instructions, conversation history, and the current user message to construct prompts. I also learned that managing conversation context is important for maintaining coherent interactions across multiple messages.
 
-### Changes to goals
+### Initial goals
 
-Initially I assumed that integrating the AI would mainly involve sending user input directly to the model. However, my research showed that a structured prompt-building system and conversation memory will likely be necessary to produce better responses. Because of this, I plan to design a reusable prompt builder and a conversation management module.
+At the start of the project, my overall goal is to design and implement a chatbot system that can generate context-aware responses by combining structured prompt engineering with conversation memory.
+
+Specifically, I aim to:
+
+Build a reusable prompt generation system that combines system instructions, user input, and conversation history
+Implement a conversation memory module that tracks previous messages and feeds them into the AI model
+Integrate this system into the backend so that responses are dynamically generated rather than hardcoded
+
+At this stage, I expect to implement a relatively complete system that maintains multi-turn conversation context and produces consistent, relevant responses.
+
+However, I recognise that this goal may be somewhat ambitious given time constraints and the complexity of managing conversation state effectively. As I progress, I may need to simplify aspects of memory handling or prompt structure while still maintaining a functional and well-designed system.
 
 ### Next steps
 
