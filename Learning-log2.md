@@ -1,4 +1,4 @@
-### Learning Log – Entry 2: Initial AI Logic Implementation (27/03)
+### Learning Log – Entry 2: Initial AI Logic Implementation (29/03)
 
 #### What I did
 
