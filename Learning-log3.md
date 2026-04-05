@@ -1,4 +1,4 @@
-## Learning Log – Entry 3: Backend Integration and System Structuring
+## Learning Log – Entry 3: Backend Integration and System Structuring (05/04)
 
 ### What I did
 During this stage I focused on refining my AI logic module so that it could be more effectively integrated into the backend API being developed by Jimi. Rather than adding new features such as conversation memory at this point, I prioritised improving the structure and usability of the existing system.
