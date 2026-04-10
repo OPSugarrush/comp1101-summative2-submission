@@ -1,6 +1,6 @@
-### Learning Log – Entry 2: Initial AI Logic Implementation (29/03)
+## Learning Log – Entry 2: Initial AI Logic Implementation (29/03)
 
-#### What I did
+### What I did
 
 During this stage I moved from research into implementing the core AI logic for the chatbot using Python. Between this and my previous entry, I spent additional time strengthening my understanding of Python in AI contexts by completing a short course focused on AI fundamentals. This helped ensure that my implementation decisions were more informed rather than rushed.
 
@@ -14,9 +14,8 @@ To test the system, I implemented a terminal-based loop which allowed me to repe
 
 I also ensured that the `generate_response` function can be easily integrated into the backend being developed by Jimi, allowing it to be imported and used directly within an API endpoint.
 
----
 
-#### What I learned
+### What I learned
 
 I learned that effective AI systems rely not only on prompt structure but also on clear separation of responsibilities within the code. Breaking the system into stages made it easier to understand, test, and extend.
 
@@ -24,17 +23,15 @@ I also developed my understanding of prompt structuring by applying it in code r
 
 Testing the system locally highlighted limitations in the current rule-based responses and reinforced the importance of designing the system in a way that supports future improvements.
 
----
 
-#### Changes to goals
+### Changes to goals
 
 My initial goal was to build both prompt structuring and conversation memory early on. However, I realised this was slightly too ambitious for this stage. I adjusted my approach to prioritise building a clean, modular foundation before introducing more advanced features.
 
 This refinement does not change my overall goal of developing a structured and reusable AI logic system, but it changes the order of implementation, focusing on incremental and testable progress.
 
----
 
-#### Next steps
+### Next steps
 
 Next, I will work with Jimi to integrate this module into the FastAPI backend. This will involve ensuring that responses are correctly returned through an API endpoint.
 
