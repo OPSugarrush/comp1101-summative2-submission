@@ -1,29 +1,27 @@
-## Learning Log – Entry 3: Backend Integration and System Structuring (05/04)
+## Learning Log – Entry 3: Backend Integration and System Structuring (05/04) 
 
-### What I did
-During this stage I focused on refining my AI logic module so that it could be more effectively integrated into the backend API being developed by Jimi. Rather than adding new features such as conversation memory at this point, I prioritised improving the structure and usability of the existing system.
+### What I did 
 
-I updated the code to better reflect how it will function within a larger application. The main change was introducing a clear interface function, `handle_message`, which acts as the entry point between the backend and the AI logic. This function takes user input and returns a structured response in a JSON-friendly format, making it suitable for use within a FastAPI endpoint.
+In this stage, I focused on refining my AI logic so it could integrate properly with Jimi's backend API. Instead of adding new features, I prioritised improving structure and usability.  
 
-I also improved input handling by adding basic type checking to ensure the system behaves more reliably when receiving unexpected data. The prompt-building function was refined to include a simple system instruction, making the structure more aligned with how real AI prompts are designed.
+I introduced a clear interface function, `handle_message`, which acts as the link between the backend and AI logic. It takes input and returns a JSON-friendly response for use in FastAPI. I also added basic type checking to improve reliability.  
 
-Although the response system is still rule-based, I ensured that the internal pipeline (processing → prompt building → response generation) is now clearly defined and modular. This makes it easier to extend in later stages without needing to rewrite the system.
+The prompt-building function was updated to include a system instruction, making it closer to real AI prompts. While still rule-based, the pipeline (`processing → prompt → response`) is now clearly structured and easier to expand. I also updated the local test system to use `handle_message`, matching backend behaviour.  
 
-I updated the local testing system to use the new `handle_message` function, ensuring that testing reflects how the backend will actually interact with the module.
+### What I learned 
 
-### What I learned
-Through this stage I developed a better understanding of how different parts of a software system connect together, particularly how internal logic must be designed with external use in mind. Designing a clear interface function highlighted the importance of separating internal processing from how data is exposed to other parts of the application.
+I gained a better understanding of how different system components connect, especially the importance of designing logic for external use. Creating `handle_message` showed how to separate internal processing from external interaction.  
 
-I also learned that improving structure and reliability is just as important as adding new features. By refining the existing system, I made it more maintainable and easier to integrate, which is essential in a collaborative project.
+I also learned that improving structure is as important as adding features, particularly in a collaborative project. Additionally, I saw how prompt systems can be developed gradually, even before integrating a real AI model.  
 
-Additionally, I gained further insight into how prompt structure can be gradually developed. Even though the system is not yet using an external AI model, the way prompts are constructed now better reflects how such integration would work in the future.
+This stage also strengthened my ability to structure a Python AI system for real-world use, focusing on clarity, integration, and maintainability.  
 
-### Changes to goals
-My original plan was to begin implementing conversation memory at this stage. However, after reviewing the system and considering integration requirements, I decided to focus first on ensuring that the module is cleanly structured and fully compatible with the backend.
+### Changes to goals 
 
-This adjustment improves the overall quality of the system and reduces the risk of issues during integration. My goal of implementing conversation memory remains, but it has been moved to the next stage so that it can be built on top of a stable foundation.
+I planned to implement memory here, but decided to focus on making the system stable and backend-compatible first. This reduces integration issues and improves overall quality. Memory will now be implemented in the next stage.  
 
-### Next steps
-Next, I will implement a basic conversation memory system that stores recent messages and incorporates them into the prompt structure. This will allow the chatbot to handle multi-turn interactions more effectively.
+### Next steps 
 
-Following that, I plan to further refine the prompt construction to include this conversation history, improving the consistency and relevance of responses.
+Next, I will implement a basic conversation memory system and include it in the prompt. I will then refine the prompt structure further to improve response consistency and relevance.  
+
+Following this, I may explore integrating an external AI model as a fallback to move beyond fully hardcoded responses while keeping the current system structure.
