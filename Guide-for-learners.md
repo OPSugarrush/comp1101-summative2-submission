@@ -26,7 +26,7 @@ This explains that chatbots simulate human conversation and are commonly used in
 
 This is an image of famous chatbot ChatGPT, and how it operates:
 
-![ Alt text](Example of AI conversation (GPT))
+![Example of AI conversation (GPT)](Images/Example of AI Conversation (GPT).png)
 
 The BuiltIn resource also explains that chatbots can be rule-based or AI-based. Rule-based systems use predefined responses, while AI-based systems generate responses dynamically. 
 
@@ -60,14 +60,14 @@ This helps place the pipeline into context. Each loop represents one pass throug
 
 It also shows that input handling and response generation are separate parts of the system, which is important when structuring more complex designs. 
 
-![ Alt text](image_url)
+![ Alt text](Images/Example from Real Python.png)
  
 
 ### GrowwStacks - Build a Memory-Powered AI Chatbot in Python: Complete 2026 Guide 
 
 https://growwstacks.com/blog/python-chatbot-tutorial-build-ai-from-scratch/ 
 
-![ Alt text](image_url)
+![ Alt text](Images/Example from GrowwStacks.png)
 
 
 This resource explains how chatbots store conversation history. It shows that previous messages must be saved manually, usually using simple data structures. 
@@ -84,7 +84,7 @@ https://machinelearningplus.com/gen-ai/python-ai-chatbot-memory/
 
 This site expands on the previous resource by showing more of how memory can be used in practice and the way it can be integrated into code. It explains that conversation history is included in every request sent to the model. 
 
-![ Alt text](image_url)
+![ Alt text](Images/Example from Machine Learning Plus.png)
 
 This makes memory part of the input rather than something separate. It shows how earlier messages directly influence later responses, which is essential for maintaining context. 
 
