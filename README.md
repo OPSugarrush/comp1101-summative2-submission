@@ -50,6 +50,6 @@ Additional supporting skills include:
 
 ## Repository Contents
 
-* **learning-logs/** – contains reflective learning logs, documenting personal learning progress and development work  
-* **guide-for-learners** – guide explaining how other learners can learn the key concepts and skills used in this project  
-* **images/** – screenshots and diagrams supporting the documentation  
+* **Learning-logs/** – contains reflective learning logs, documenting personal learning progress and development work  
+* **Guide-for-learners** – guide explaining how other learners can learn the key concepts and skills used in this project  
+* **Images/** – screenshots and diagrams supporting the documentation  
