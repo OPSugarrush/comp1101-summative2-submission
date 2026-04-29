@@ -2,6 +2,8 @@
 
 The skill is developing a Chatbot System – more specifically the AI logic element and the system pipeline. 
 
+---
+
 ## Motivation  
 
 My motivation for learning this skill came from an interest in understanding how modern AI systems, particularly chatbots, actually work beyond just using them. I wanted to develop a foundational understanding of prompt engineering and AI system structure, as I recognised this as an increasingly important area in both computing and wider industry. 
@@ -12,7 +14,7 @@ This also aligned with my role in the group project, where I was responsible for
 
 In the long term, I believe this skill will be valuable as AI becomes more integrated into software systems. Understanding prompt engineering and chatbot architecture provides a strong foundation for future work in areas. It also improves problem-solving skills, as it requires structuring systems clearly and thinking about how data flows between components. 
 
- 
+---
 
 ## Background  
 
@@ -32,7 +34,6 @@ The BuiltIn resource also explains that chatbots can be rule-based or AI-based. 
 
 In practice, many systems combine both. Simple cases are handled with rules, while more complex inputs are handled by AI. This shows that chatbot design is about structuring how responses are produced, not just writing them. 
 
- 
 
 To understand how chatbots function in practice, this website introduces the idea of interaction flow: 
 
@@ -42,13 +43,14 @@ This website will be used later as a learning material, however for now, it simp
 
 From this, it becomes clear that chatbots follow a structured process, often referred to as a pipeline. At this stage, it is not necessary to understand each part in detail, only that input is passed through a series of steps to produce a response. 
 
+---
+
 ## Learning Materials 
 
 To develop this skill, the focus is on understanding how chatbot systems are structured rather than copying full implementations. The goal is to recognise patterns used in real systems and apply them in a simplified way. 
 
 These resources build on the idea of a pipeline introduced in the background, gradually breaking it into clearer stages. 
 
- 
 
 ### Real Python - Build a Chatbot with Python 
 
@@ -60,15 +62,14 @@ This helps place the pipeline into context. Each loop represents one pass throug
 
 It also shows that input handling and response generation are separate parts of the system, which is important when structuring more complex designs. 
 
-![ Alt text](Images/Example-from-Real-Python.png)
- 
+![ Example from Real Python](Images/Example-from-Real-Python.png)
+
 
 ### GrowwStacks - Build a Memory-Powered AI Chatbot in Python: Complete 2026 Guide 
 
 https://growwstacks.com/blog/python-chatbot-tutorial-build-ai-from-scratch/ 
 
-![ Alt text](Images/Example-from-GrowwStacks.png)
-
+![ Example from GrowwStacks](Images/Example-from-GrowwStacks.png)
 
 This resource explains how chatbots store conversation history. It shows that previous messages must be saved manually, usually using simple data structures. 
 
@@ -76,7 +77,6 @@ This builds on the pipeline by introducing memory. Instead of each interaction b
 
 It highlights that AI systems do not remember anything unless memory is included as part of the process. 
 
- 
 
 ### Machine Learning Plus - Build an AI Chatbot with Memory in Python (2026) 
 
@@ -84,13 +84,14 @@ https://machinelearningplus.com/gen-ai/python-ai-chatbot-memory/
 
 This site expands on the previous resource by showing more of how memory can be used in practice and the way it can be integrated into code. It explains that conversation history is included in every request sent to the model. 
 
-![ Alt text](Images/Example-from-Machine-Learning-Plus.png)
+![ Example from Machine Learning Plus](Images/Example-from-Machine-Learning-Plus.png)
 
 This makes memory part of the input rather than something separate. It shows how earlier messages directly influence later responses, which is essential for maintaining context. 
 
 Machine Learning Plus also shows you how prompts are structured. Instead of sending raw input, systems build a formatted prompt that includes instructions, history, and the current message. 
 
-This is where the pipeline becomes more defined. Input is transformed before being used, rather than passed directly to the model. 
+This is where the pipeline becomes more defined. Input is transformed before being used, rather than passed directly to the model.
+
 
 ### Overall Features:
 
@@ -100,7 +101,7 @@ User Input → Processing → Prompt → Response → Memory Update
 
 The key skill is understanding how these stages connect. This structure is what allows chatbot systems to function and is consistent across real AI systems, allowing you to begin forming your own ai logic functions based of this pipeline.  
 
- 
+---
 
 ## Evaluation  
 
