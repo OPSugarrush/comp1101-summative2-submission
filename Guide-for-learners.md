@@ -1,4 +1,4 @@
-# Learning Ai Logic: 
+# Learning AI Logic: 
 
 The skill is developing a Chatbot System – more specifically the AI logic element and the system pipeline. 
 
@@ -24,7 +24,9 @@ https://builtin.com/artificial-intelligence/what-is-a-chatbot
 
 This explains that chatbots simulate human conversation and are commonly used in areas like customer service and digital assistants. It also shows that modern chatbots are often powered by AI models, rather than relying only on fixed responses. 
 
-![ Alt text](image_url)
+This is an image of famous chatbot ChatGPT, and how it operates:
+
+![ Alt text](Example of AI conversation (GPT))
 
 The BuiltIn resource also explains that chatbots can be rule-based or AI-based. Rule-based systems use predefined responses, while AI-based systems generate responses dynamically. 
 
