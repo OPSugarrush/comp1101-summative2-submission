@@ -6,6 +6,8 @@ The full collaborative development of the chatbot system is available in the pub
 
 https://github.com/OPSugarrush/ProgBlackCollab2AIChatBot.git
 
+My code is kept specifically in Jacob_Ai_Logic and some elements Jimi_Backend.
+
 This repository contains the application source code, commit history, and evidence of collaboration, including feature branches, pull requests, and issues.
 
 ---
