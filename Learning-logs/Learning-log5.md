@@ -2,7 +2,7 @@
 
 ## What I did  
 
-In this stage, I introduced a Gemini AI fallback within `generate_response`, allowing the system to produce dynamic responses when no rule matches. This created a hybrid system combining rule-based logic with AI-generated output, without altering the existing structure.  
+I introduced a Gemini AI fallback within `generate_response`, allowing the system to produce dynamic responses when no rule matches. This created a hybrid system combining rule-based logic with AI-generated output, without altering the existing structure.  
 
 To support this, I implemented `.env` usage to securely store the API key, using `load_dotenv()` and environment variables.  
 

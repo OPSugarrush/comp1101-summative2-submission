@@ -22,6 +22,6 @@ My next goal is to make responses more dynamic by using this memory more effecti
 
 ### Next steps 
 
-Next, I will refine how memory is used within the prompt so it has a clearer impact on responses.  
+Next, I will refine how memory is used so it has a clearer impact on responses.  
 
 Following this, I may explore integrating an external AI model as a fallback to move beyond fully hardcoded responses while keeping the current system structure.

@@ -2,7 +2,7 @@
 
 ### What I did 
 
-In this stage, I focused on refining my AI logic so it could integrate properly with Jimi's backend API. Instead of adding new features, I prioritised improving structure and usability.  
+I focused on refining my AI logic so it could integrate properly with Jimi's backend API. Instead of adding new features, I prioritised improving structure and usability.  
 
 I introduced a clear interface function, `handle_message`, which acts as the link between the backend and AI logic. It takes input and returns a JSON-friendly response for use in FastAPI. I also added basic type checking to improve reliability.  
 
