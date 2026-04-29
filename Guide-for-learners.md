@@ -1,8 +1,8 @@
-###Learning Ai Logic: 
+# Learning Ai Logic: 
 
 The skill is developing a Chatbot System – more specifically the AI logic element and the system pipeline. 
 
-##Motivation  
+## Motivation  
 
 My motivation for learning this skill came from an interest in understanding how modern AI systems, particularly chatbots, actually work beyond just using them. I wanted to develop a foundational understanding of prompt engineering and AI system structure, as I recognised this as an increasingly important area in both computing and wider industry. 
 
@@ -14,7 +14,7 @@ In the long term, I believe this skill will be valuable as AI becomes more integ
 
  
 
-##Background  
+## Background  
 
 This guide is aimed at students or, more generally, learners with basic Python knowledge who are new to AI systems and chatbot development. Before starting, it is important to understand what a chatbot is and how these systems operate at a general level. 
 
@@ -40,7 +40,7 @@ This website will be used later as a learning material, however for now, it simp
 
 From this, it becomes clear that chatbots follow a structured process, often referred to as a pipeline. At this stage, it is not necessary to understand each part in detail, only that input is passed through a series of steps to produce a response. 
 
-##Learning Materials 
+## Learning Materials 
 
 To develop this skill, the focus is on understanding how chatbot systems are structured rather than copying full implementations. The goal is to recognise patterns used in real systems and apply them in a simplified way. 
 
@@ -48,7 +48,7 @@ These resources build on the idea of a pipeline introduced in the background, gr
 
  
 
-#Real Python - Build a Chatbot with Python 
+### Real Python - Build a Chatbot with Python 
 
 https://realpython.com/build-a-chatbot-python-chatterbot/ 
 
@@ -62,7 +62,7 @@ It also shows that input handling and response generation are separate parts of 
 
  
 
-#GrowwStacks - Build a Memory-Powered AI Chatbot in Python: Complete 2026 Guide 
+### GrowwStacks - Build a Memory-Powered AI Chatbot in Python: Complete 2026 Guide 
 
 https://growwstacks.com/blog/python-chatbot-tutorial-build-ai-from-scratch/ 
 
@@ -76,7 +76,7 @@ It highlights that AI systems do not remember anything unless memory is included
 
  
 
-#Machine Learning Plus - Build an AI Chatbot with Memory in Python (2026) 
+### Machine Learning Plus - Build an AI Chatbot with Memory in Python (2026) 
 
 https://machinelearningplus.com/gen-ai/python-ai-chatbot-memory/ 
 
@@ -90,7 +90,7 @@ Machine Learning Plus also shows you how prompts are structured. Instead of send
 
 This is where the pipeline becomes more defined. Input is transformed before being used, rather than passed directly to the model. 
 
-#Overall Features:
+### Overall Features:
 
 Across all of these materials, the same pattern appears: 
 
@@ -100,7 +100,7 @@ The key skill is understanding how these stages connect. This structure is what 
 
  
 
-##Evaluation  
+## Evaluation  
 
 Learning how to design a chatbot pipeline and code AI logic is an important and valuable skill, especially for students interested in AI and software development. It provides a clear understanding of how modern AI systems work beyond simply using existing tools. 
 
