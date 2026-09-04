@@ -1,5 +1,5 @@
 
-# AI Chatbot
+# AI Chatbot - Progress Logs
 # COMP1101 Summative Assessment 2 – Submission Repository
 
 ## Development Repository
