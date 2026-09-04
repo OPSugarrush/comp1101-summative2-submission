@@ -6,52 +6,56 @@ The full collaborative development of the chatbot system is available in the pub
 
 https://github.com/OPSugarrush/ProgBlackCollab2AIChatBot.git
 
-My code is kept specifically in Jacob_Ai_Logic and some elements Jimi_Backend.
+This repository contains the learning logs and supporting documentation for my work on the project. The main areas of development associated with my work are **`Jacob_AI_Logic`** and elements of **`Jimi_Backend`**, alongside collaborative work on the frontend and integration of the wider application.
 
-This repository contains the application source code, commit history, and evidence of collaboration, including feature branches, pull requests, and issues.
+The development repository contains the application source code, commit history, and evidence of collaboration, including feature branches, pull requests, and issues.
 
 ---
 
 ## Project Overview
 
-The focus of my work in this project is the development of a **chatbot system**, specifically the **AI logic and system pipeline**. This involves designing how user input is processed, structured into prompts, and converted into responses, as well as how conversation memory is managed.
+The focus of my work in this project is the development of an **AI chatbot system**, particularly its conversation logic, AI integration and the flow of data between the chatbot components.
 
-This chatbot system forms part of a larger web-based AI application. The overall system consists of a frontend interface and a backend API, which together allow users to interact with the chatbot in real time.
+This involves designing how user input is processed, structured into prompts, and converted into responses, as well as how conversation memory is managed.
+
+The chatbot system forms part of a larger web-based AI application. The overall system consists of a frontend interface, backend API and AI logic, which together allow users to interact with the chatbot in real time.
 
 The architecture is separated into three main components:
 
-1. Joshua Eme: **Frontend user interface**
-2. Oluwafolajimi Lawal: **Backend API server**
-3. Me: **Conversation logic and AI integration**
+1. **Frontend user interface**
+2. **Backend API server**
+3. **Conversation logic and AI integration**
 
-While the backend handles routing and API structure, my role does not involve backend development itself. Instead, it focuses on the internal logic of the chatbot - specifically how the system processes input and generates responses through a structured pipeline.
+Development was collaborative, with work shared across these components. My main development work focused on the **AI logic and Gemini API integration**, alongside contributions to the **backend and frontend integration**.
 
-This separation allows each team member to specialise in a specific area while contributing to a fully integrated application.
+This separation allowed the team to work across specialised areas while contributing to a fully integrated application.
 
 ---
 
 ## Skills Developed
 
-The main skill developed in this project is designing and implementing a **chatbot system**, with a focus on its internal structure rather than just surface-level responses.
+The main skills developed in this project are designing and implementing a **chatbot system**, with a focus on its internal structure and the flow of information between system components.
 
 This includes:
 
 * AI conversation logic
 * Prompt construction and structure
 * Chatbot pipeline design (input → processing → prompt → response → memory)
+* Gemini API integration
+* Integration between frontend, backend and AI components
 
 These skills are centred around understanding how AI systems are structured and how data flows through different stages to produce meaningful outputs.
 
 Additional supporting skills include:
 
-* React frontend development (collaborative understanding)
-* FastAPI backend integration (API interaction, not development)
+* React frontend development
+* FastAPI backend integration (API interaction and collaborative development)
 * Collaborative software development using Git and GitHub
 
 ---
 
 ## Repository Contents
 
-* **Learning-logs/** – contains reflective learning logs, documenting personal learning progress and development work  
-* **Guide-for-learners** – guide explaining how other learners can learn the key concepts and skills used in this project  
-* **Images/** – screenshots and diagrams supporting the documentation  
+* **Learning-logs/** – contains reflective learning logs, documenting personal learning progress and development work
+* **Guide-for-learners** – guide explaining how other learners can learn the key concepts and skills used in this project
+* **Images/** – screenshots and diagrams supporting the documentation
